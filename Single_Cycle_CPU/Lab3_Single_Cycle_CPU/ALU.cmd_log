@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/neko/lab3/ALU.v -lang verilog -prj lab3 -o ALU.spl -module ALU -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 ALU.spl C:/neko/lab3/ALU.sym 

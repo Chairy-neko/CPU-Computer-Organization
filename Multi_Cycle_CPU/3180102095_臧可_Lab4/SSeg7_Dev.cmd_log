@@ -1,0 +1,1 @@
+sch2hdl -sympath C:/neko/lab4/Top_Multi_CPU_App/ipcore_dir -intstyle ise -family kintex7 -verilog SSeg7_Dev_drc.vf -w C:/neko/lab4/Top_Multi_CPU_App/SSeg7_Dev.sch 

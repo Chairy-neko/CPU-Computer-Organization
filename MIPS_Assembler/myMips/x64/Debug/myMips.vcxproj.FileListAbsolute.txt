@@ -1,0 +1,2 @@
+C:\Users\臧可\source\repos\myMips\x64\Debug\myMips.exe
+C:\Users\臧可\source\repos\myMips\x64\Debug\myMips.pdb

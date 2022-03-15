@@ -1,0 +1,3 @@
+sch2verilog -intstyle ise -family kintex7 -tionly {} -tiext tfi -w C:/neko/lab3/SSeg7_Dev.sch SSeg7_Dev.tfi 
+sch2verilog -intstyle ise -family kintex7 -tionly {} -tiext tfi -w C:/neko/lab3/SSeg7_Dev.sch SSeg7_Dev.tfi 
+sch2hdl -sympath C:/neko/lab3/ipcore_dir -intstyle ise -family kintex7 -verilog SSeg7_Dev_drc.vf -w C:/neko/lab3/SSeg7_Dev.sch 

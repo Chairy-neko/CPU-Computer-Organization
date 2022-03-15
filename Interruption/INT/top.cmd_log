@@ -1,0 +1,87 @@
+xst -intstyle ise -ifn "C:/neko/lab3/top.xst" -ofn "C:/neko/lab3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/neko/lab3/top.xst" -ofn "C:/neko/lab3/top.syr" 
+xst -intstyle ise -ifn "C:/neko/lab3/top.xst" -ofn "C:/neko/lab3/top.syr" 
+xst -intstyle ise -ifn "C:/neko/lab3/top.xst" -ofn "C:/neko/lab3/top.syr" 
+xst -intstyle ise -ifn "C:/neko/lab3/top.xst" -ofn "C:/neko/lab3/top.syr" 
+xst -intstyle ise -ifn "C:/neko/lab3/top.xst" -ofn "C:/neko/lab3/top.syr" 
+sch2verilog -intstyle ise -family kintex7 -tionly {} -tiext tfi -w C:/neko/lab3/top.sch top.tfi 
+xst -intstyle ise -ifn "C:/neko/lab3/top.xst" -ofn "C:/neko/lab3/top.syr" 
+sch2verilog -intstyle ise -family kintex7 -tionly {} -tiext tfi -w C:/neko/lab3/top.sch top.tfi 
+xst -intstyle ise -ifn "C:/neko/lab3/top.xst" -ofn "C:/neko/lab3/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/neko/INT/top.xst" -ofn "C:/neko/INT/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/neko/INT/top.xst" -ofn "C:/neko/INT/top.syr" 
+xst -intstyle ise -ifn "C:/neko/INT/top.xst" -ofn "C:/neko/INT/top.syr" 
+xst -intstyle ise -ifn "C:/neko/INT/top.xst" -ofn "C:/neko/INT/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/neko/INT/top.xst" -ofn "C:/neko/INT/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/neko/INT/top.xst" -ofn "C:/neko/INT/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/neko/INT/top.xst" -ofn "C:/neko/INT/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/neko/INT/top.xst" -ofn "C:/neko/INT/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/neko/INT/top.xst" -ofn "C:/neko/INT/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/neko/INT/top.xst" -ofn "C:/neko/INT/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/neko/INT/top.xst" -ofn "C:/neko/INT/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/neko/INT/top.xst" -ofn "C:/neko/INT/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "C:/neko/INT/top.xst" -ofn "C:/neko/INT/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L top.ngc top.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt off top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf -ucf Org-Sword.ucf 
+bitgen -intstyle ise -f top.ut top.ncd 

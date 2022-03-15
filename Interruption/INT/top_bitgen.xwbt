@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\neko\INT\top.ncd
+OUTFILE=C:\neko\INT\top.bit
+FAMILY=Kintex7
+PART=xc7k160t-2lffg676
+WORKINGDIR=C:\neko\INT
+LICENSE=WebPack
+USER_INFO=__0_0_0

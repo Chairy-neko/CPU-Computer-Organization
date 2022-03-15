@@ -1,0 +1,70 @@
+j 0x00000008
+add $zero, $zero, $zero
+add $zero, $zero, $zero
+add $zero, $zero, $zero
+add $zero, $zero, $zero
+add $zero, $zero, $zero
+add $zero, $zero, $zero
+add $zero, $zero, $zero
+lui $v1, 61440
+sll $a0, $v1, 1
+lui $t0, 32768
+addi $s4, $zero, 63
+srl $a2, $t0, 4
+add $a2, $a2, $v1
+nor $at, $zero, $zero
+slt $v0, $at, $zero
+addi $t2, $at, 65535
+sw $a2, 4($3)
+lw $a1, 0($3)
+add $a1, $a1, $a1
+add $a1, $a1, $a1
+sw $a1, 0($3)
+addi $t1, $t1, 1
+sw $t1, 0($4)
+lw $t5, 20($0)
+lw $a1, 0($3)
+add $a1, $a1, $a1
+add $a1, $a1, $a1
+sw $a1, 0($3)
+lw $a1, 0($3)
+and $t3, $a1, $t0
+addi $t5, $t5, 1
+bne $t5, $zero, 1
+jal 0x00000038
+lw $a1, 0($3)
+addi $s2, $zero, 8
+add $s6, $s2, $s2
+add $s2, $s2, $s6
+and $t3, $a1, $s2
+beq $t3, $zero, 5
+beq $t3, $s2, 9
+addi $s2, $zero, 8
+beq $t3, $s2, 10
+sw $t1, 0($4)
+j 0x00000019
+bne $t2, $at, 2
+nor $t2, $zero, $zero
+add $t2, $t2, $t2
+sw $t2, 0($4)
+j 0x00000019
+lw $t1, 96($17)
+sw $t1, 0($4)
+j 0x00000019
+lw $t1, 32($17)
+sw $t1, 0($4)
+j 0x00000019
+lw $t5, 20($0)
+add $t2, $t2, $t2
+ori $t2, $t2, 1
+addi $s1, $s1, 4
+and $s1, $s1, $s4
+add $t1, $t1, $v0
+bne $t1, $at, 1
+addi $t1, $t1, 5
+lw $a1, 0($3)
+add $t3, $a1, $a1
+add $t3, $t3, $t3
+sw $t3, 0($3)
+sw $a2, 4($3)
+jr $ra

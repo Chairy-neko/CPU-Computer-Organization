@@ -1,0 +1,4 @@
+vhdtdtfi -lib work C:/neko/INT/SCPU_ctrl_INT.v -lang verilog -prj lab3 -o SCPU_ctrl_INT.spl -module SCPU_ctrl_INT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SCPU_ctrl_INT.spl C:/neko/INT/SCPU_ctrl_INT.sym 
+vhdtdtfi -lib work C:/neko/INT/SCPU_ctrl_INT.v -lang verilog -prj lab3 -o SCPU_ctrl_INT.spl -module SCPU_ctrl_INT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SCPU_ctrl_INT.spl C:/neko/INT/SCPU_ctrl_INT.sym 

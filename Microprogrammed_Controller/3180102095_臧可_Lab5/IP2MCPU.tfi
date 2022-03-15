@@ -1,0 +1,14 @@
+
+
+
+// Instantiate the module
+IP2MCPU instance_name (
+    .clk_50mhz(clk_50mhz), 
+    .BTN(BTN), 
+    .SW(SW), 
+    .LED(LED), 
+    .SEGMENT(SEGMENT), 
+    .AN_SEL(AN_SEL)
+    );
+
+

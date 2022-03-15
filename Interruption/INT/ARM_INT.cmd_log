@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/neko/INT/ARM_INT.v -lang verilog -prj lab3 -o ARM_INT.spl -module ARM_INT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 ARM_INT.spl C:/neko/INT/ARM_INT.sym 

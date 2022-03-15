@@ -1,0 +1,12 @@
+﻿  Invert.cpp
+E:\Learning\yan\interview\CPU\ComputerOrganization\MIPS_Assembler\myMips\Invert.cpp(46,36): warning C4101: 'shamti': unreferenced local variable
+E:\Learning\yan\interview\CPU\ComputerOrganization\MIPS_Assembler\myMips\Invert.cpp(116,23): warning C4018: '<': signed/unsigned mismatch
+  lineProcess.cpp
+  main.cpp
+  mips.cpp
+E:\Learning\yan\interview\CPU\ComputerOrganization\MIPS_Assembler\myMips\mips.cpp(7,9): warning C4101: 'j': unreferenced local variable
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 363 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  myMips.vcxproj -> E:\Learning\yan\interview\CPU\ComputerOrganization\MIPS_Assembler\myMips\Release\myMips.exe

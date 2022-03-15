@@ -1,0 +1,16 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sun Aug 16 17:22:39 2020
+
+drc -z IP2MCPU.ncd IP2MCPU.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net U1/x_ctrl/_n0490 is sourced
+   by a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   U1/x_ctrl/Inst_in[31]_PWR_3_o_equal_10_o<31>1 is sourced by a combinatorial
+   pin. This is not good design practice. Use the CE pin to control the loading
+   of data into the flip-flop.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

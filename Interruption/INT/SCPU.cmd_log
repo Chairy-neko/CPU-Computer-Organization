@@ -1,0 +1,3 @@
+sch2hdl -sympath C:/neko/INT/ipcore_dir -intstyle ise -family kintex7 -verilog SCPU_drc.vf -w C:/neko/INT/SCPU.sch 
+sch2sym -intstyle ise -family kintex7 -refsym SCPU C:/neko/INT/SCPU.sch C:/neko/INT/SCPU.sym 
+sch2sym -intstyle ise -family kintex7 -refsym SCPU C:/neko/INT/SCPU.sch C:/neko/INT/SCPU.sym 

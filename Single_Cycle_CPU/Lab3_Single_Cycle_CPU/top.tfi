@@ -1,0 +1,24 @@
+// Verilog instantiation template created from schematic G:\neko\lab3\top.sch - Sat Aug 15 19:55:13 2020
+//
+// Notes: 
+// To use this template to instantiate this component,cut-and-paste and then edit
+//
+// Instantiate the UUT
+   top UUT (
+		.CR(    ), 
+		.RDY(    ), 
+		.BTN_y(    ), 
+		.BTN_x(    ), 
+		.SW(    ), 
+		.RSTN(    ), 
+		.readn(    ), 
+		.seg_clk(    ), 
+		.seg_clrn(    ), 
+		.seg_out(    ), 
+		.SEG_PEN(    ), 
+		.clk_100mhz(    ), 
+		.led_clk(    ), 
+		.led_sout(    ), 
+		.led_clrn(    ), 
+		.LED_PEN(    )
+   );

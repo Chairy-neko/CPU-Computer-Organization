@@ -1,0 +1,4 @@
+﻿  Invert.cpp
+C:\Users\臧可\source\repos\myMips\Invert.cpp(46,36): warning C4101: “shamti”: 未引用的局部变量
+C:\Users\臧可\source\repos\myMips\Invert.cpp(101,38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  myMips.vcxproj -> C:\Users\臧可\source\repos\myMips\x64\Debug\myMips.exe

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work G:/neko/lab3/SCPU_ctrl_more.v -lang verilog -prj lab3 -o SCPU_ctrl_more.spl -module SCPU_ctrl_more -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SCPU_ctrl_more.spl G:/neko/lab3/SCPU_ctrl_more.sym 

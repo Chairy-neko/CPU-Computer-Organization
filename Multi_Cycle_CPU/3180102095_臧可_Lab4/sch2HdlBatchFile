@@ -1,0 +1,3 @@
+sch2hdl,-sympath,C:/neko/lab4/Top_Multi_CPU_App/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,C:/neko/lab4/Top_Multi_CPU_App/MUX4T1_5.vf,-w,C:/neko/lab4/Top_Multi_CPU_App/MUX4T1_5.sch
+sch2hdl,-sympath,C:/neko/lab4/Top_Multi_CPU_App/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,C:/neko/lab4/Top_Multi_CPU_App/SSeg7_Dev.vf,-w,C:/neko/lab4/Top_Multi_CPU_App/SSeg7_Dev.sch
+sch2hdl,-sympath,C:/neko/lab4/Top_Multi_CPU_App/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,C:/neko/lab4/Top_Multi_CPU_App/MyMC14495.vf,-w,C:/neko/lab4/Top_Multi_CPU_App/MyMC14495.sch

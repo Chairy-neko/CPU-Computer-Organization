@@ -1,0 +1,1 @@
+sch2hdl,-sympath,C:/neko/lab3/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,C:/neko/lab3/top.vf,-w,C:/neko/lab3/top.sch

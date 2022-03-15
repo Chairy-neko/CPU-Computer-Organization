@@ -1,0 +1,283 @@
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Org-Sword.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+vhdtdtfi -lang verilog -prj Top_Multi_CPU_App -o C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.tfi -lib work C:/neko/lab4/Top_Multi_CPU_App//IP2MCPU.v -module IP2MCPU -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "G:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "G:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+xst -intstyle ise -ifn "G:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "G:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "G:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "G:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "G:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "G:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "G:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "G:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "G:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "G:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+xst -intstyle ise -ifn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.xst" -ofn "C:/neko/lab4/Top_Multi_CPU_App/IP2MCPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p xc7k160t-ffg676-2L IP2MCPU.ngc IP2MCPU.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o IP2MCPU_map.ncd IP2MCPU.ngd IP2MCPU.pcf 
+par -w -intstyle ise -ol high -mt off IP2MCPU_map.ncd IP2MCPU.ncd IP2MCPU.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml IP2MCPU.twx IP2MCPU.ncd -o IP2MCPU.twr IP2MCPU.pcf -ucf top.ucf 
+bitgen -intstyle ise -f IP2MCPU.ut IP2MCPU.ncd 

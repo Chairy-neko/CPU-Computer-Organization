@@ -1,0 +1,5 @@
+sch2hdl -sympath G:/neko/lab3/ipcore_dir -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w G:/neko/lab3/Data_path.sch 
+sch2hdl -sympath G:/neko/lab3/ipcore_dir -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w G:/neko/lab3/Data_path.sch 
+sch2sym -intstyle ise -family kintex7 -refsym Data_path G:/neko/lab3/Data_path.sch G:/neko/lab3/Data_path.sym 
+sch2sym -intstyle ise -family kintex7 -refsym Data_path G:/neko/lab3/Data_path.sch G:/neko/lab3/Data_path.sym 
+sch2sym -intstyle ise -family kintex7 -refsym Data_path G:/neko/lab3/Data_path.sch G:/neko/lab3/Data_path.sym 

@@ -1,0 +1,3 @@
+vhdtdtfi -lang verilog -prj Top_Multi_CPU_App -o C:/neko/lab4/Top_Multi_CPU_App/Multi_CPU.tfi -lib work C:/neko/lab4/Top_Multi_CPU_App//Multi_CPU.v -module Multi_CPU -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/neko/lab4/Top_Multi_CPU_App/Multi_CPU.v -lang verilog -prj Top_Multi_CPU_App -o Multi_CPU.spl -module Multi_CPU -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Multi_CPU.spl C:/neko/lab4/Top_Multi_CPU_App/Multi_CPU.sym 

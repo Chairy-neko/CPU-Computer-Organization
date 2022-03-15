@@ -1,0 +1,18 @@
+[Inputs]
+clk
+rst
+EN
+Start
+=P_Data[31:0]=
+[Outputs]
+led_clk
+led_sout
+LED_PEN
+led_clrn
+=counter_set[1:0]=
+=LED_out[15:0]=
+=GPIOf0[13:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel SPIO
+

@@ -1,0 +1,46 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/neko1/INT/SCPU_SCPU_sch_tb_isim_beh.exe -prj D:/neko1/INT/SCPU_SCPU_sch_tb_beh.prj work.SCPU_SCPU_sch_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/neko1/INT/Regs.v" into library work
+Analyzing Verilog file "D:/neko1/INT/REG32.v" into library work
+Analyzing Verilog file "D:/neko1/INT/MUX4T1_32.v" into library work
+Analyzing Verilog file "D:/neko1/INT/MUX2T1_5.vf" into library work
+Analyzing Verilog file "D:/neko1/INT/MUX2T1_32.v" into library work
+Analyzing Verilog file "D:/neko1/INT/Ext_32.v" into library work
+Analyzing Verilog file "D:/neko1/INT/ARM_INT.v" into library work
+Analyzing Verilog file "D:/neko1/INT/ALU.v" into library work
+Analyzing Verilog file "D:/neko1/INT/add_32.v" into library work
+Analyzing Verilog file "D:/neko1/INT/SCPU_ctrl_INT.v" into library work
+Analyzing Verilog file "D:/neko1/INT/Data_path.vf" into library work
+Analyzing Verilog file "D:/neko1/INT/SCPU.vf" into library work
+Analyzing Verilog file "D:/neko1/INT/SCPU_INT_sim.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module SCPU_ctrl_INT
+Compiling module add_32
+Compiling module Ext_32
+Compiling module INV
+Compiling module AND2
+Compiling module OR2
+Compiling module MUX2T1_5_MUSER_SCPU
+Compiling module MUX2T1_32
+Compiling module REG32
+Compiling module Regs
+Compiling module VCC
+Compiling module GND
+Compiling module MUX4T1_32
+Compiling module ALU
+Compiling module ARM_INT
+Compiling module Data_path_MUSER_SCPU
+Compiling module SCPU
+Compiling module SCPU_SCPU_sch_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\SCPU_SCPU_sch_tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 19 Verilog Units
+Built simulation executable D:/neko1/INT/SCPU_SCPU_sch_tb_isim_beh.exe
+Fuse Memory Usage: 28636 KB
+Fuse CPU Usage: 639 ms
